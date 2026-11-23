@@ -1,0 +1,37 @@
+# Data, local experiments and generated outputs
+/data/
+/runs/
+/outputs/
+/weights/
+/checkpoints/
+/datasets/
+**/predictions/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.npz
+*.npy
+*.csv
+*.xlsx
+*.zip
+*.7z
+*.tar
+*.gz
+*.log
+events.out.tfevents.*
+
+# Local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+{
+  "split_dir": "lists/egr_fs_grouped_20261113",
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "image_size": 256,
+  "epochs": 500,
+  "min_epochs": 100,
+  "patience": 80,
+  "min_delta": 0,
+  "lr": 0.0005,
+  "min_lr_ratio": 0.01,
+  "weight_decay": 0.0001,
+  "warmup_epochs": 10,
+  "micro_batch": 8,
+  "effective_batch": 8,
+  "workers": 2,
+  "cpu_threads": 4,
+  "amp": true,
+  "precision": "bfloat16",
+  "eval_batch": 1,
+  "split_counts": {
+    "train": 566,
+    "val": 131,
+    "test": 205
+  }
+}
